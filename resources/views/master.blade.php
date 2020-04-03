@@ -24,28 +24,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-        <button type="button" class="btn btn-warning myPopover"
-            data-toggle="popover"
-            data-placement="right" title="Right Popover"
-            data-content="Popover show on Right">Tooltip on right
-        </button>
-            
-            
-            <script>
-            $(function(){
-                $(".myPopover").popover();
-            });
-            </script>
-        </div>
-        <span class="badge badge-primary">Thông tin chính --- dammio.com</span>
-<span class="badge badge-secondary">Thông tin phụ</span>
-<span class="badge badge-success">Thao tác nào đó thành công</span>
-<span class="badge badge-danger">Nguy hiểm</span>
-<span class="badge badge-warning">Cảnh báo</span>
-<span class="badge badge-info">Thông tin cho nội dung</span>
-<span class="badge badge-light">Chữ màu sáng</span>
-<span class="badge badge-dark">Chữ màu tối</span>
+        <header class="row header">
+            <div class="col logo">PayHang.com</div>
+        </header>
+        <div class="row">đây là nội dung</div>
     </div>
 </body>
 </html>

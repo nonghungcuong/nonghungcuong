@@ -1,3 +1,7 @@
-.container{
-    background-color: red;
+.header{
+    border-bottom: solid 1px gray;
+    padding: 50px 0;
+}
+.logo{
+    text-align: center;
 }
